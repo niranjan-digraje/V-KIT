@@ -1,0 +1,78 @@
+
+  .profile-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-body p {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+
+  .card-title {
+    color: #000;
+  }
+
+  .left-section {
+    background-color: #fff;
+  }
+
+  .right-section {
+    background-color: #f8f9fa;
+  }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      
+      background: linear-gradient(135deg,#04c5ab, #1142ac, #f80202, #880505, #04c5ab, #1142ac);
+      background-size: 180% 180%;
+      animation: gradient-animation 10s ease infinite;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      color: #fff;
+    }
+
+    @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h1{
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    #logout:hover{
+      font-size: large;
+      text-decoration: none;
+
+    }

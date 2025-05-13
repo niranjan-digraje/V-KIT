@@ -1,0 +1,235 @@
+[
+    {
+      "name": "CSCR01",
+      "roomType": "Classroom",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 60,
+        "numberOfClassrooms": 0,
+        "description": "Smart classroom with projector and whiteboard. Well-lit space suitable for theory and practical sessions."
+      }
+    },
+    {
+      "name": "CSCR02",
+      "roomType": "Classroom",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 60,
+        "numberOfClassrooms": 0,
+        "description": "Air-conditioned classroom with interactive smartboard. Designed for multimedia teaching environments."
+      }
+    },
+    {
+      "name": "CSCR03",
+      "roomType": "Classroom",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 50,
+        "numberOfClassrooms": 0,
+        "description": "Standard CSE classroom with internet-enabled teaching setup. Comfortable seating with good acoustics."
+      }
+    },
+    {
+      "name": "CSCR04",
+      "roomType": "Classroom",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 55,
+        "numberOfClassrooms": 0,
+        "description": "Spacious classroom equipped with sound system and board. Suitable for group discussions and lectures."
+      }
+    },
+    {
+      "name": "CSCR05",
+      "roomType": "Classroom",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 60,
+        "numberOfClassrooms": 0,
+        "description": "Modern classroom with Wi-Fi and projector setup. Designed to support collaborative learning."
+      }
+    },
+    {
+      "name": "CSELAB01",
+      "roomType": "Lab",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 30,
+        "seatingCapacity": 30,
+        "numberOfClassrooms": 0,
+        "description": "Programming lab with high-end PCs and dual displays. Used for coding, software development, and hackathons."
+      }
+    },
+    {
+      "name": "CSELAB02",
+      "roomType": "Lab",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 25,
+        "seatingCapacity": 25,
+        "numberOfClassrooms": 0,
+        "description": "Database lab with MySQL and Oracle setup. Equipped for data analysis and backend system design."
+      }
+    },
+    {
+      "name": "CVCR04",
+      "roomType": "Classroom",
+      "department": "Civil Engineering",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 50,
+        "numberOfClassrooms": 0,
+        "description": "Civil engineering classroom with drawing boards and ventilation. Supports architectural and design classes."
+      }
+    },
+    {
+      "name": "Seminar Hall",
+      "roomType": "Seminar Hall",
+      "department": "Multi-department",
+      "features": {
+        "numberOfPCs": 1,
+        "seatingCapacity": 150,
+        "numberOfClassrooms": 0,
+        "description": "Auditorium with projector, sound system, and stage. Ideal for presentations, workshops, and guest lectures."
+      }
+    },
+    {
+      "name": "CSE HOD Cabin",
+      "roomType": "Office",
+      "department": "Computer Science and Engineering",
+      "features": {
+        "numberOfPCs": 1,
+        "seatingCapacity": 5,
+        "numberOfClassrooms": 0,
+        "description": "HOD's cabin with workspace and meeting area. Used for faculty meetings, planning, and administration."
+      }
+    },
+    {
+      "name": "MBA Department",
+      "roomType": "Department Office",
+      "department": "MBA",
+      "features": {
+        "numberOfPCs": 3,
+        "seatingCapacity": 10,
+        "numberOfClassrooms": 15,
+        "description": "Department office with staff workspace and file storage. Handles academic coordination and scheduling for MBA courses."
+      }
+    },
+    {
+      "name": "Boys Hostel",
+      "roomType": "Hostel",
+      "department": "Hostel",
+      "features": {
+        "numberOfPCs": 1,
+        "seatingCapacity": 200,
+        "numberOfClassrooms": 50,
+        "description": "Residential facility with common rooms and internet access. Includes study rooms, dining, and sports area."
+      }
+    },
+    {
+      "name": "Biotech Department",
+      "roomType": "Department Office",
+      "department": "Biotechnology",
+      "features": {
+        "numberOfPCs": 2,
+        "seatingCapacity": 8,
+        "numberOfClassrooms": 5,
+        "description": "Administrative space with lab coordination area. Supports faculty offices and student advising activities."
+      }
+    },
+    {
+      "name": "Library",
+      "roomType": "Library",
+      "department": "Central",
+      "features": {
+        "numberOfPCs": 10,
+        "seatingCapacity": 100,
+        "numberOfClassrooms": 0,
+        "description": "Central library with digital resources and reading space. Offers journal access, e-learning zones, and quiet areas."
+      }
+    },
+    {
+      "name": "BSHCR06",
+      "roomType": "Classroom",
+      "department": "BSH Department",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 50,
+        "numberOfClassrooms": 0,
+        "description": "Air-conditioned classroom with interactive smartboard. Designed for multimedia teaching environments."
+      }
+    },
+    {
+      "name": "BSHCR05",
+      "roomType": "Classroom",
+      "department": "BSH Department",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 50,
+        "numberOfClassrooms": 0,
+        "description": "Air-conditioned classroom with interactive smartboard. Designed for multimedia teaching environments."
+      }
+    },
+    {
+      "name": "BSHCR04",
+      "roomType": "Classroom",
+      "department": "BSH Department",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 60,
+        "numberOfClassrooms": 0,
+        "description": "Air-conditioned classroom with interactive smartboard. Designed for multimedia teaching environments."
+      }
+    },
+    {
+      "name": "BSH DEPT OFFICE",
+      "roomType": "OFFICE",
+      "department": "BSH Department",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 10,
+        "numberOfClassrooms": 0,
+        "description": "BSH department office for first year student"
+      }
+    },
+    {
+      "name": "Iot Department",
+      "roomType": "Lab",
+      "department": "BSH Department",
+      "features": {
+        "numberOfPCs": 60,
+        "seatingCapacity": 60,
+        "numberOfClassrooms": 0,
+        "description": "Air-conditioned Lab with interactive smartboard and Pc's. Designed for multimedia teaching environments and practical."
+      }
+    }
+    ,{
+      "name": "kaman",
+      "roomType": "",
+      "department": "",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 0,
+        "numberOfClassrooms": 0,
+        "description": "KIT college main entrance , kolhapur"
+      }
+    },
+    {
+      "name": "wihir",
+      "roomType": "",
+      "department": "",
+      "features": {
+        "numberOfPCs": 0,
+        "seatingCapacity": 0,
+        "numberOfClassrooms": 0,
+        "description": "source of water"
+      }
+    }
+
+  ]
+  

@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+}
+
+th {
+    background: linear-gradient(to right, #0e73cc, #113031);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+td {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 12px;
+}
+
+tr:hover td {
+    background-color: #e0f7fa;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#04c5ab, #1142ac, #f80202, #880505, #04c5ab, #1142ac);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: #fff;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+}

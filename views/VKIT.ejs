@@ -1,0 +1,107 @@
+<%- include("sidebar.ejs") %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="/css/vkit.css">
+</head>
+<body>
+    
+
+    <br><br><br><br>
+
+    <div class="container " >
+        <div class="row ">
+          <div class="col-md-8 mx-auto " >
+            <div class="media-hover-wrapper">
+              <img src="/images/building.jpeg" alt="Campus" class="hover-img" />
+              <video 
+                src="/video/kittour.mp4" 
+                class="hover-video"
+                muted
+                controls
+                preload="none"
+                onmouseover="this.play()" 
+                onmouseout="this.pause(); this.currentTime = 0;">
+              </video>
+            </div>
+                   
+          </div>
+        </div>
+    </div>
+
+    <div class="container pt-5" >
+        <div class="heading row"  >
+            <div class="col-md-3 mx-auto">
+                <h2 class="text-align-center">Contact Us</h2>
+            </div>  
+        </div>
+
+          <div class="row" >
+            <div class="col-md-5 col-sm-6 col-xs-12 p-5 contact" >
+                <ul>
+                  <li><i class="fa-solid fa-location-dot"></i> Ujalaiwadi,Gokul Shirgao,(NH4-HighWay) Kolhapur </li>
+                  <li><i class="fa-solid fa-phone"></i>  91+ 7050491918</li>
+                  <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@kitcoek.in"> info@kitcoek.in</a></li>
+                  <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/kitcoek.official"> Instagram</a></li>
+                  <li><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/official.kitcoek/"> Facebook</a></li>
+                  <br>
+                  <li>View in Map :</li>
+                  
+                </ul>
+            <div class="map pl-4"><iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.0485536251717!2d74.25991927499308!3d16.654121284113412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0ffb509926fa9%3A0x9af43eb75ec2804!2sKIT&#39;s%20College%20of%20Engineering%20Kolhapur%20(Empowered%20Autonomous)!5e1!3m2!1sen!2sin!4v1746184473329!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                
+            </div>
+            <div class="col-md-7 col-sm-6 col-xs-12 p-5" >
+
+                <div class="row" >
+                      <div class="col-md-10">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="pt-2 " id="enquiry_form">
+                        
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Join us</h4>
+                                </div>
+                                <div class="card-body">
+                                    <input type="hidden" name="access_key" value="1932168a-af8e-45fa-aa4d-b43e0961bc2e">
+                                    Fullname :<input type="text" class="form-control mb-2" name="name">
+                                    Email id :<input type="email" class="form-control mb-2"  name="email" required>
+                                    
+                                    Contact :<input type="tel" class="form-control mb-2"  name="contact" required>
+                                    Address :<textarea type="text" class="form-control mb-2"  name="Address" ></textarea>
+                                </div>
+                                <div class="card-footer">
+                                  <button class="btn btn-danger btn-outline" type="submit">submit</button>
+                                </div>
+                              
+                            </div>
+                        
+                        </form>
+                      </div>  
+                </div>
+        
+
+            </div>
+          </div>
+       </div>
+
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+    <script type="module" src="/js/main.js" ></script>
+</body>
+</html>
+

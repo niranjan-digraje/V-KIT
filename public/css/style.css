@@ -1,0 +1,206 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #adf3f8; /* Original background */
+}
+
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+}
+
+.vkit {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+#container3D {
+  width: 100%;
+  height: 100vh;
+  position: absolute; /* Original positioning */
+  top: 0;
+  left: 0;
+}
+nav {
+  top: 0.5rem; 
+  position: fixed; 
+  z-index: 10000; 
+  display: flex;
+  align-items: center;
+  
+  padding: 0 10px; 
+  width: 100%;
+  height: 50px; 
+  background-color: transparent; 
+  box-sizing: border-box; 
+}
+
+.logo_name {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  font-weight: 600;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+}
+
+.logo_name > .icons {
+  margin-left: auto; 
+  display: flex;
+  gap: 5px;
+}
+
+#icon1 { 
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+nav i { 
+  font-size: 20px;
+  transition: 0.2s ease; 
+}
+
+nav i:hover {
+  font-size: 23px; 
+}
+.icons {
+  display: flex;
+  align-items: center; 
+  justify-content: space-around; 
+  gap: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0; 
+}
+
+
+i { 
+  font-size: 20px;
+  padding: 8px; 
+  color: #000; 
+}
+
+.icons i:hover { 
+  font-size: 23px;
+}
+
+.sidebar {
+  position: fixed; /* Stays in place */
+  top: 0; /* Align to the very top of the viewport */
+  left: -300px; /* Start hidden (adjust width if needed) */
+  width: 270px; /* Sidebar width */
+  height: 100%; /* Full viewport height */
+  background-color: #333; /* Original background */
+  color: white; /* Original text color */
+  overflow-x: hidden; /* Original horizontal overflow */
+  overflow-y: auto;   /* Allow vertical scroll ONLY if content overflows */
+  transition: left 0.3s ease-in-out; /* Animate the 'left' property */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Original shadow */
+  z-index: 9999; /* Below main navbar but above page content */
+  box-sizing: border-box; /* Include padding in width/height */
+
+ 
+  padding-top: 65px;
+  padding-left: 20px; /* Original */
+  padding-right: 10px; /* Added */
+  padding-bottom: 20px; /* Added */
+}
+
+.sidebar-heading {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.sidebar ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;  
+}
+
+.sidebar ul li a {
+  color: white; /* Original color */
+  text-decoration: none; /* Original: no underline */
+  display: block; /* Make the whole area clickable */
+  padding: 10px 5px; /* Top/Bottom, Right/Left padding */
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+.sidebar ul li a:hover {
+  
+  background-color: #555; /* Suggested hover */
+}
+
+
+#footer{
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+
+#Controls {
+  display: block; 
+  margin-top: 15rem; 
+  padding-left: 5px; 
+}
+
+.sidebar.is-open {
+  left: 0; 
+}
+#splash-screen {
+  position: absolute; /* Original */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  
+}
+
+#splash-screen img { 
+  animation: spinanimate1 5s infinite normal; 
+}
+
+@keyframes spinanimate1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#tooltip{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  max-width: 300px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  z-index: 1000;
+  
+}
+
+.contact li a{
+  color: #fff;
+}
